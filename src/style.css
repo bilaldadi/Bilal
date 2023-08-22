@@ -1,18 +1,7 @@
 html {
-  --section-background-color: linear-gradient(
-    to bottom left,
-    rgba(17, 16, 16, 0.582),
-    rgba(12, 8, 24, 0.904)
-  );
+ 
 
-  --image-gradient: linear-gradient(
-    to bottom left,
-    rgba(17, 16, 16, 0.678),
-    rgba(12, 10, 22, 0.863)
-    
-  );
-
-  --imp-text-color: #c770f0;
+  --imp-text-color: #84A7A1;
 }
 
 .purple {
@@ -33,7 +22,7 @@ button:focus {
   width: 100%;
   height: 100%;
   z-index: 999999;
-  background-color: #0c0513;
+  background-color: #0E2954;
   background-image: url(./Assets/pre.svg);
   background-repeat: no-repeat;
   background-position: center;
@@ -58,18 +47,18 @@ button:focus {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #2d1950;
+  background: #0E2954;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgba(178, 121, 216, 0.959);
+  background: #1F6E8C;
   border-radius: 12px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(222, 130, 235, 0.911);
+  background:#1F6E8C;
   border-radius: 12px;
 }
 
@@ -98,7 +87,7 @@ button:focus {
 
 .navbar-toggler span {
   display: block !important;
-  background-color: #be50f4 !important;
+  background-color: #1F6E8C !important;
   height: 4px !important;
   width: 27px !important;
   margin-top: 5px !important;
@@ -195,7 +184,7 @@ button:focus {
   height: 5px;
   width: 0;
   border-radius: 16px;
-  background: #c95bf5;
+  background: #1F6E8C;
   bottom: 1px;
   left: 0;
   z-index: -1;
@@ -268,7 +257,7 @@ button:focus {
 .home-content {
   padding: 9rem 0 2rem !important;
   color: whitesmoke;
-  text-align: left;
+  text-align: center;
 }
 
 .heading {
@@ -282,17 +271,17 @@ button:focus {
 }
 
 .main-name {
-  color: #cd5ff8;
+  color: #84A7A1;
 }
 
 .Typewriter__wrapper {
   font-size: 2.2em !important;
-  color: #be6adf !important;
+  color: #84A7A1 !important;
   font-weight: 600 !important;
 }
 .Typewriter__cursor {
   font-size: 2.4em !important;
-  color: #b562d6 !important;
+  color: #84A7A1 !important;
 }
 
 @media (max-width: 767px) {
@@ -372,7 +361,7 @@ button:focus {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background: #68187a;
+  background: #84A7A1;
   transition: 0.5s;
   transform: scale(0.9);
   z-index: -1;
@@ -380,13 +369,13 @@ button:focus {
 
 .home-social-icons:hover::before {
   transform: scale(1.1);
-  box-shadow: 0 0 15px #801f95;
+  box-shadow: 0 0 15px #84A7A1;
 }
 
 .home-social-icons:hover {
-  color: #87209e;
-  box-shadow: 0 0 5px #87209e;
-  text-shadow: 0 0 2px #87209e;
+  color: #84A7A1;
+  box-shadow: 0 0 5px #84A7A1;
+  text-shadow: 0 0 2px #84A7A1;
 }
 
 .social-icons {
@@ -396,14 +385,14 @@ button:focus {
 }
 
 .icon-colour {
-  color: #700c86 !important;
+  color: #1F6E8C !important;
 }
 
 /* --------- */
 /* Footer */
 /* --------- */
 .footer {
-  background-color: rgb(10, 4, 22);
+  background-color:#0E2954;
   bottom: 0 !important;
   padding-top: 10px !important;
   padding-bottom: 8px !important ;
@@ -440,7 +429,7 @@ button:focus {
 }
 
 .blockquote-footer {
-  color: #a588c0 !important;
+  color: #0E2954 !important;
 }
 /* --------- */
 /* Projects */
